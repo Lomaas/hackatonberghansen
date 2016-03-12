@@ -11,6 +11,7 @@
             <string>Karla-Bold</string>
             <string>Karla-Bold</string>
             <string>Karla-Bold</string>
+            <string>Karla-Bold</string>
         </mutableArray>
         <mutableArray key="Karla-Regular.ttf">
             <string>Karla-Regular</string>
@@ -90,9 +91,9 @@
                                             </mask>
                                         </variation>
                                     </scrollView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dracula tur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oq-n5-paM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weekend hos Dracula" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oq-n5-paM">
                                         <rect key="frame" x="21" y="194" width="334" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="25"/>
                                         <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -108,7 +109,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9f-yr-bnk">
                                         <rect key="frame" x="21" y="290" width="335" height="49"/>
                                         <color key="backgroundColor" red="0.023529411764705882" green="0.44705882352941173" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="20"/>
                                         <state key="normal" title="Join!">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
