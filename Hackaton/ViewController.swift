@@ -58,7 +58,8 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         rootScrollView.delegate = self
-        baseScrollView.contentSize = CGSizeMake(view.frame.width, 930)
+        rootScrollView.contentSize = CGSizeMake(376, 214)
+        baseScrollView.contentSize = CGSizeMake(view.frame.width, 986)
         addImagesAndVideos()
     }
     

@@ -31,6 +31,10 @@
             <string>Karla-Regular</string>
             <string>Karla-Regular</string>
             <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -67,17 +71,24 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="375" height="866"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="986"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-E6-zfS">
-                                <rect key="frame" x="0.0" y="0.0" width="415" height="907"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-E6-zfS">
+                                <rect key="frame" x="0.0" y="0.0" width="415" height="986"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpg-k0-IZO">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpg-k0-IZO">
                                         <rect key="frame" x="1" y="-2" width="375" height="214"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="230" id="TxG-6t-oZZ"/>
+                                            <constraint firstAttribute="width" constant="375" id="kLX-1P-6QN"/>
                                             <constraint firstAttribute="height" constant="230" id="rcz-Be-3kw"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="rcz-Be-3kw"/>
+                                            </mask>
+                                        </variation>
                                     </scrollView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dracula tur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oq-n5-paM">
                                         <rect key="frame" x="21" y="194" width="334" height="30"/>
@@ -85,8 +96,8 @@
                                         <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-xf-QYu">
-                                        <rect key="frame" x="188" y="435" width="39" height="37"/>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-xf-QYu">
+                                        <rect key="frame" x="168" y="0.0" width="39" height="37"/>
                                     </pageControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fredag 18. mars - Søndag 20. mars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzE-1t-xHL">
                                         <rect key="frame" x="22" y="173" width="334" height="30"/>
@@ -110,14 +121,14 @@
                                             <action selector="didPressJoin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jF7-js-sCA"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage-1" translatesAutoresizingMaskIntoConstraints="NO" id="sa0-Lk-nZw">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage-1" translatesAutoresizingMaskIntoConstraints="NO" id="sa0-Lk-nZw">
                                         <rect key="frame" x="21" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Nmt-sy-WAr"/>
                                             <constraint firstAttribute="width" constant="49" id="Pue-TJ-I6B"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage-2" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-wL-jaY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage-2" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-wL-jaY">
                                         <rect key="frame" x="78" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="6NS-7G-bSC"/>
@@ -160,45 +171,61 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcs-jw-sbJ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcs-jw-sbJ">
                                         <rect key="frame" x="171" y="458" width="26" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZC-zI-Pya">
-                                        <rect key="frame" x="263" y="457" width="26" height="24"/>
+                                        <rect key="frame" x="266" y="459" width="26" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage-3" translatesAutoresizingMaskIntoConstraints="NO" id="yEl-0E-ZiP">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage-3" translatesAutoresizingMaskIntoConstraints="NO" id="yEl-0E-ZiP">
                                         <rect key="frame" x="135" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="49" id="18q-iW-nue"/>
                                             <constraint firstAttribute="height" constant="50" id="dX0-3H-gwJ"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage" translatesAutoresizingMaskIntoConstraints="NO" id="j5I-JF-yJp">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage" translatesAutoresizingMaskIntoConstraints="NO" id="j5I-JF-yJp">
                                         <rect key="frame" x="192" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="QW7-8v-mqU"/>
                                             <constraint firstAttribute="width" constant="49" id="cE6-o4-usa"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage-2" translatesAutoresizingMaskIntoConstraints="NO" id="MlR-AG-lAH">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage-2" translatesAutoresizingMaskIntoConstraints="NO" id="MlR-AG-lAH">
                                         <rect key="frame" x="249" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="49" id="8le-E9-aAc"/>
                                             <constraint firstAttribute="height" constant="50" id="GL3-X1-BQL"/>
+                                            <constraint firstAttribute="height" constant="50" id="OlD-J9-A8z"/>
+                                            <constraint firstAttribute="width" constant="49" id="Qer-e9-sj3"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="8le-E9-aAc"/>
+                                                <exclude reference="GL3-X1-BQL"/>
+                                            </mask>
+                                        </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ViewEmployeeImage-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ts4-T9-hbz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ViewEmployeeImage-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ts4-T9-hbz">
                                         <rect key="frame" x="306" y="362" width="49" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="8bb-zb-naX"/>
+                                            <constraint firstAttribute="width" constant="49" id="IfM-Lq-LHj"/>
+                                            <constraint firstAttribute="height" constant="50" id="gza-0p-Kc5"/>
                                             <constraint firstAttribute="width" constant="49" id="tk2-so-uOm"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="8bb-zb-naX"/>
+                                                <exclude reference="tk2-so-uOm"/>
+                                            </mask>
+                                        </variation>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Check" translatesAutoresizingMaskIntoConstraints="NO" id="nou-N7-y7B">
                                         <rect key="frame" x="55" y="396" width="16" height="16"/>
@@ -224,112 +251,184 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Kan ikke" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K34-Qg-M1o">
-                                        <rect key="frame" x="247" y="480" width="72" height="21"/>
-                                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="15"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TqF-Vy-96c">
-                                        <rect key="frame" x="2" y="524" width="375" height="363"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TqF-Vy-96c">
+                                        <rect key="frame" x="2" y="690" width="375" height="296"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reisedetaljer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYE-iH-Eu8">
-                                                <rect key="frame" x="23" y="19" width="124" height="23"/>
+                                                <rect key="frame" x="18" y="10" width="124" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choice hotel supreme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vp-WW-5om">
-                                                <rect key="frame" x="23" y="69" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="60" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jit-QQ-6RN">
-                                                <rect key="frame" x="23" y="48" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="39" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Norwegian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phA-4b-woa">
-                                                <rect key="frame" x="23" y="115" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="106" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FLYSELSKAP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOP-Y6-6eZ">
-                                                <rect key="frame" x="23" y="94" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="85" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gardermoen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfq-gY-fCY">
-                                                <rect key="frame" x="23" y="168" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="159" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AVREISE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8C-7X-t0b">
-                                                <rect key="frame" x="23" y="146" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="137" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fredag 18. mars 16:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLW-gS-RHG">
-                                                <rect key="frame" x="23" y="193" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="184" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gardermoen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEP-M8-yE9">
-                                                <rect key="frame" x="23" y="246" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="237" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HJEMREISE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-GM-kD2">
-                                                <rect key="frame" x="23" y="224" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="215" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="13"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Søndag 20. mars 19:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1E-dt-bTS">
-                                                <rect key="frame" x="23" y="271" width="330" height="23"/>
+                                                <rect key="frame" x="18" y="262" width="330" height="23"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="0Ep-vV-HW9"/>
+                                            <constraint firstAttribute="height" constant="288" id="0PQ-6Q-YXg"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4c8-rU-AoA">
-                                        <rect key="frame" x="131" y="462" width="5" height="53"/>
+                                        <rect key="frame" x="131" y="462" width="1" height="53"/>
                                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="5Oa-Gw-cVN"/>
                                             <constraint firstAttribute="height" constant="40" id="dpd-5g-Hq7"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5Oa-Gw-cVN"/>
+                                                <exclude reference="dpd-5g-Hq7"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppm-h2-MDV">
-                                        <rect key="frame" x="226" y="462" width="6" height="53"/>
+                                        <rect key="frame" x="232" y="462" width="1" height="53"/>
                                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="X1d-5Q-ncK"/>
                                             <constraint firstAttribute="width" constant="1" id="xj1-c4-sBj"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="xj1-c4-sBj"/>
+                                                <exclude reference="X1d-5Q-ncK"/>
+                                            </mask>
+                                        </variation>
                                     </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ot-bV-zkH">
+                                        <rect key="frame" x="0.0" y="523" width="376" height="165"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vi skal oppleve:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIw-gi-1zD">
+                                                <rect key="frame" x="15" y="21" width="330" height="23"/>
+                                                <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Tur til Dracula sitt slott" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ads-sT-oga">
+                                                <rect key="frame" x="28" y="52" width="330" height="23"/>
+                                                <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Electric castle festival" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eI2-Oc-v0q">
+                                                <rect key="frame" x="28" y="79" width="330" height="23"/>
+                                                <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Ølsmaking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbl-Fo-0fa">
+                                                <rect key="frame" x="28" y="106" width="330" height="23"/>
+                                                <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.31372549019607843" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skal ikke" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kf7-ev-IGc">
+                                        <rect key="frame" x="253" y="480" width="63" height="21"/>
+                                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="bpg-k0-IZO" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" id="8Js-5M-NLk"/>
+                                    <constraint firstItem="TqF-Vy-96c" firstAttribute="top" secondItem="ppm-h2-MDV" secondAttribute="bottom" constant="175" id="5ke-zd-aCm"/>
+                                    <constraint firstItem="TqF-Vy-96c" firstAttribute="top" secondItem="4c8-rU-AoA" secondAttribute="bottom" constant="175" id="7kI-QA-w9h"/>
+                                    <constraint firstItem="TqF-Vy-96c" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="690" id="8Aa-c1-JsE"/>
+                                    <constraint firstItem="ppm-h2-MDV" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" constant="232" id="8dX-Df-Z1J"/>
+                                    <constraint firstItem="yEl-0E-ZiP" firstAttribute="leading" secondItem="9dF-wL-jaY" secondAttribute="trailing" constant="8" id="APt-Gq-O7g"/>
+                                    <constraint firstAttribute="trailing" secondItem="ppm-h2-MDV" secondAttribute="trailing" constant="177" id="Afx-L9-Fz1"/>
                                     <constraint firstItem="fdr-xf-QYu" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" id="Ipz-yZ-nTI"/>
-                                    <constraint firstItem="TqF-Vy-96c" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="524" id="LpI-fj-0Wu"/>
-                                    <constraint firstAttribute="bottom" secondItem="K34-Qg-M1o" secondAttribute="bottom" constant="406" id="M50-QJ-5ja"/>
-                                    <constraint firstAttribute="trailing" secondItem="bpg-k0-IZO" secondAttribute="trailing" id="U2O-MI-Ntp"/>
-                                    <constraint firstItem="bpg-k0-IZO" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" id="YR2-gp-vsq"/>
-                                    <constraint firstAttribute="height" constant="907" id="j6y-Sg-mhu"/>
+                                    <constraint firstItem="j5I-JF-yJp" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="Jbq-Mg-RFU"/>
+                                    <constraint firstAttribute="trailing" secondItem="TqF-Vy-96c" secondAttribute="trailing" id="O3z-vI-LlM"/>
+                                    <constraint firstItem="sa0-Lk-nZw" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" constant="21" id="QNX-Wf-hW5"/>
+                                    <constraint firstItem="4c8-rU-AoA" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" constant="131" id="TIm-vA-a1F"/>
+                                    <constraint firstItem="bpg-k0-IZO" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="-2" id="ZLR-0Q-TXh"/>
+                                    <constraint firstAttribute="bottom" secondItem="TqF-Vy-96c" secondAttribute="bottom" id="Zm0-he-3N4"/>
+                                    <constraint firstItem="j5I-JF-yJp" firstAttribute="leading" secondItem="yEl-0E-ZiP" secondAttribute="trailing" constant="8" id="a3z-JP-UDU"/>
+                                    <constraint firstItem="Ts4-T9-hbz" firstAttribute="leading" secondItem="MlR-AG-lAH" secondAttribute="trailing" constant="8" id="aIH-hn-up9"/>
+                                    <constraint firstItem="MlR-AG-lAH" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="bKI-6w-rC5"/>
+                                    <constraint firstItem="yEl-0E-ZiP" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="fl9-Hv-2Xw"/>
+                                    <constraint firstItem="sa0-Lk-nZw" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="kpt-Jc-Xlc"/>
+                                    <constraint firstItem="MlR-AG-lAH" firstAttribute="leading" secondItem="j5I-JF-yJp" secondAttribute="trailing" constant="8" id="nAx-qu-sYc"/>
+                                    <constraint firstItem="9dF-wL-jaY" firstAttribute="leading" secondItem="sa0-Lk-nZw" secondAttribute="trailing" constant="8" id="nXZ-uj-0LT"/>
+                                    <constraint firstItem="Ts4-T9-hbz" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="o1r-Vs-weE"/>
+                                    <constraint firstItem="TqF-Vy-96c" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" id="obs-0L-cjJ"/>
+                                    <constraint firstItem="9dF-wL-jaY" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="top" constant="362" id="pGL-LN-Cso"/>
                                     <constraint firstItem="fdr-xf-QYu" firstAttribute="centerX" secondItem="VKg-E6-zfS" secondAttribute="centerX" id="u16-v0-Baj"/>
-                                    <constraint firstAttribute="bottom" secondItem="TqF-Vy-96c" secondAttribute="bottom" constant="20" id="xUA-BC-H5X"/>
+                                    <constraint firstItem="bpg-k0-IZO" firstAttribute="leading" secondItem="VKg-E6-zfS" secondAttribute="leading" id="x94-X0-KDW"/>
+                                    <constraint firstAttribute="width" constant="375" id="y9G-Nf-erf"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="TIm-vA-a1F"/>
+                                        <exclude reference="8dX-Df-Z1J"/>
+                                        <exclude reference="Afx-L9-Fz1"/>
+                                        <exclude reference="5ke-zd-aCm"/>
+                                        <exclude reference="7kI-QA-w9h"/>
+                                    </mask>
+                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -338,12 +437,17 @@
                             <constraint firstItem="VKg-E6-zfS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9gE-vU-dga"/>
                             <constraint firstAttribute="trailing" secondItem="VKg-E6-zfS" secondAttribute="trailing" id="NHK-QK-DwH"/>
                             <constraint firstItem="VKg-E6-zfS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kbj-i3-Kbt"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="bottom" constant="-21" id="uVQ-Pg-N5T"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VKg-E6-zfS" secondAttribute="bottom" id="uVQ-Pg-N5T"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="kbj-i3-Kbt"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="PushTrip" id="Wmy-v5-IQn"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="930"/>
+                    <size key="freeformSize" width="375" height="1050"/>
                     <connections>
                         <outlet property="baseScrollView" destination="VKg-E6-zfS" id="4Qv-Et-MUl"/>
                         <outlet property="joinButton" destination="y9f-yr-bnk" id="YQX-Gz-CKe"/>
