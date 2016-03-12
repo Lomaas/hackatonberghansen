@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851677771C9370390056D209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851677761C9370390056D209 /* AppDelegate.swift */; };
+		851677791C9370390056D209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851677781C9370390056D209 /* ViewController.swift */; };
+		8516777C1C9370390056D209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8516777A1C9370390056D209 /* Main.storyboard */; };
+		8516777E1C9370390056D209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8516777D1C9370390056D209 /* Assets.xcassets */; };
+		851677811C9370390056D209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8516777F1C9370390056D209 /* LaunchScreen.storyboard */; };
+		851677901C937D9B0056D209 /* DESCRIPTION.en_us.html in Resources */ = {isa = PBXBuildFile; fileRef = 851677881C937D9B0056D209 /* DESCRIPTION.en_us.html */; };
+		851677911C937D9B0056D209 /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 851677891C937D9B0056D209 /* FONTLOG.txt */; };
+		851677921C937D9B0056D209 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8516778A1C937D9B0056D209 /* Karla-Bold.ttf */; };
+		851677931C937D9B0056D209 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8516778B1C937D9B0056D209 /* Karla-BoldItalic.ttf */; };
+		851677941C937D9B0056D209 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8516778C1C937D9B0056D209 /* Karla-Italic.ttf */; };
+		851677951C937D9B0056D209 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8516778D1C937D9B0056D209 /* Karla-Regular.ttf */; };
+		851677961C937D9B0056D209 /* METADATA.json in Resources */ = {isa = PBXBuildFile; fileRef = 8516778E1C937D9B0056D209 /* METADATA.json */; };
+		851677971C937D9B0056D209 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8516778F1C937D9B0056D209 /* OFL.txt */; };
+		8516779C1C9424000056D209 /* festival.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8516779B1C9423EC0056D209 /* festival.mp4 */; };
+		8516779E1C9424FE0056D209 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8516779D1C9424EA0056D209 /* video.mp4 */; };
+		851677A01C9429A40056D209 /* ConfirmTripView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8516779F1C9429A40056D209 /* ConfirmTripView.xib */; };
+		851677A21C942AA40056D209 /* BookTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851677A11C942AA40056D209 /* BookTripViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851677731C9370390056D209 /* Hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851677761C9370390056D209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		851677781C9370390056D209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8516777B1C9370390056D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8516777D1C9370390056D209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851677801C9370390056D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851677821C9370390056D209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851677881C937D9B0056D209 /* DESCRIPTION.en_us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DESCRIPTION.en_us.html; sourceTree = "<group>"; };
+		851677891C937D9B0056D209 /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
+		8516778A1C937D9B0056D209 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		8516778B1C937D9B0056D209 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8516778C1C937D9B0056D209 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		8516778D1C937D9B0056D209 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		8516778E1C937D9B0056D209 /* METADATA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = METADATA.json; sourceTree = "<group>"; };
+		8516778F1C937D9B0056D209 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8516779B1C9423EC0056D209 /* festival.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = festival.mp4; sourceTree = "<group>"; };
+		8516779D1C9424EA0056D209 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		8516779F1C9429A40056D209 /* ConfirmTripView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmTripView.xib; sourceTree = "<group>"; };
+		851677A11C942AA40056D209 /* BookTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTripViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851677701C9370390056D209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8516776A1C9370390056D209 = {
+			isa = PBXGroup;
+			children = (
+				851677751C9370390056D209 /* Hackaton */,
+				851677741C9370390056D209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851677741C9370390056D209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851677731C9370390056D209 /* Hackaton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851677751C9370390056D209 /* Hackaton */ = {
+			isa = PBXGroup;
+			children = (
+				851677761C9370390056D209 /* AppDelegate.swift */,
+				851677781C9370390056D209 /* ViewController.swift */,
+				851677A11C942AA40056D209 /* BookTripViewController.swift */,
+				8516777A1C9370390056D209 /* Main.storyboard */,
+				8516777D1C9370390056D209 /* Assets.xcassets */,
+				8516777F1C9370390056D209 /* LaunchScreen.storyboard */,
+				851677821C9370390056D209 /* Info.plist */,
+				8516779B1C9423EC0056D209 /* festival.mp4 */,
+				8516779F1C9429A40056D209 /* ConfirmTripView.xib */,
+				8516779D1C9424EA0056D209 /* video.mp4 */,
+				851677981C937DA40056D209 /* font */,
+			);
+			path = Hackaton;
+			sourceTree = "<group>";
+		};
+		851677981C937DA40056D209 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				851677881C937D9B0056D209 /* DESCRIPTION.en_us.html */,
+				851677891C937D9B0056D209 /* FONTLOG.txt */,
+				8516778A1C937D9B0056D209 /* Karla-Bold.ttf */,
+				8516778B1C937D9B0056D209 /* Karla-BoldItalic.ttf */,
+				8516778C1C937D9B0056D209 /* Karla-Italic.ttf */,
+				8516778D1C937D9B0056D209 /* Karla-Regular.ttf */,
+				8516778E1C937D9B0056D209 /* METADATA.json */,
+				8516778F1C937D9B0056D209 /* OFL.txt */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851677721C9370390056D209 /* Hackaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851677851C9370390056D209 /* Build configuration list for PBXNativeTarget "Hackaton" */;
+			buildPhases = (
+				8516776F1C9370390056D209 /* Sources */,
+				851677701C9370390056D209 /* Frameworks */,
+				851677711C9370390056D209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackaton;
+			productName = Hackaton;
+			productReference = 851677731C9370390056D209 /* Hackaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8516776B1C9370390056D209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lomas;
+				TargetAttributes = {
+					851677721C9370390056D209 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8516776E1C9370390056D209 /* Build configuration list for PBXProject "Hackaton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8516776A1C9370390056D209;
+			productRefGroup = 851677741C9370390056D209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851677721C9370390056D209 /* Hackaton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851677711C9370390056D209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8516779E1C9424FE0056D209 /* video.mp4 in Resources */,
+				8516779C1C9424000056D209 /* festival.mp4 in Resources */,
+				851677811C9370390056D209 /* LaunchScreen.storyboard in Resources */,
+				851677971C937D9B0056D209 /* OFL.txt in Resources */,
+				851677901C937D9B0056D209 /* DESCRIPTION.en_us.html in Resources */,
+				851677941C937D9B0056D209 /* Karla-Italic.ttf in Resources */,
+				851677911C937D9B0056D209 /* FONTLOG.txt in Resources */,
+				851677931C937D9B0056D209 /* Karla-BoldItalic.ttf in Resources */,
+				851677951C937D9B0056D209 /* Karla-Regular.ttf in Resources */,
+				851677921C937D9B0056D209 /* Karla-Bold.ttf in Resources */,
+				8516777E1C9370390056D209 /* Assets.xcassets in Resources */,
+				851677961C937D9B0056D209 /* METADATA.json in Resources */,
+				851677A01C9429A40056D209 /* ConfirmTripView.xib in Resources */,
+				8516777C1C9370390056D209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8516776F1C9370390056D209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851677791C9370390056D209 /* ViewController.swift in Sources */,
+				851677A21C942AA40056D209 /* BookTripViewController.swift in Sources */,
+				851677771C9370390056D209 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8516777A1C9370390056D209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8516777B1C9370390056D209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8516777F1C9370390056D209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851677801C9370390056D209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851677831C9370390056D209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		851677841C9370390056D209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851677861C9370390056D209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hackaton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.lomas.Hackaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		851677871C9370390056D209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hackaton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.lomas.Hackaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8516776E1C9370390056D209 /* Build configuration list for PBXProject "Hackaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851677831C9370390056D209 /* Debug */,
+				851677841C9370390056D209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851677851C9370390056D209 /* Build configuration list for PBXNativeTarget "Hackaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851677861C9370390056D209 /* Debug */,
+				851677871C9370390056D209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8516776B1C9370390056D209 /* Project object */;
+}
